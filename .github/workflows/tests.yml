@@ -41,8 +41,11 @@ jobs:
       if: steps.composer-cache.outputs.cache-hit != 'true'
       run: composer install --prefer-dist --no-progress --no-suggest
 
-    - name: Run test
+    - name: Run test and generate coverage report
       env:
           token: ${{ secrets.DADATA_TOKEN }}
           secret: ${{ secrets.DADATA_SECRET }}
       run: composer run-script coverage
+      
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v2.1.0
