@@ -1,0 +1,8 @@
+.idea/
+vendor/
+public/
+.phpunit.cache/code-coverage/
+
+.phpunit.cache/
+
+coverage.xml

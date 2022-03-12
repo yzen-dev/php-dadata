@@ -1,0 +1,68 @@
+{
+  "name": "yzen.dev/php-dadata",
+  "version": "0.1",
+  "description": "PHP client for DaData",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT",
+  "keywords": [ "php", "dadata" ],
+  "authors": [
+    {
+      "name": "Andey Iatsenko",
+      "email": "yzen.dev@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/yzen-dev/php-dadata/issues",
+    "source": "https://github.com/yzen-dev/php-dadata"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpDaData\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.4 | ^8.0",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.0",
+    "phpstan/phpstan": "^0.12.82",
+    "phpunit/phpunit": "^9.3",
+    "squizlabs/php_codesniffer": "*"
+  },
+  "scripts": {
+    "phpunit": [
+      "./vendor/phpunit/phpunit/phpunit --configuration ./phpunit.xml"
+    ],
+    "coverage": [
+      "./vendor/phpunit/phpunit/phpunit --configuration ./phpunit.xml --coverage-text --colors=never"
+    ],
+    "coverage-html": [
+      "./vendor/phpunit/phpunit/phpunit --configuration ./phpunit.xml --coverage-html public/coverage --coverage-text"
+    ],
+    "phpstan": [
+      "./vendor/bin/phpstan analyse -c ./phpstan.neon src"
+    ],
+    "phpcs": [
+      "./vendor/bin/phpcs --standard=./phpcs.xml -n --no-cache -s"
+    ],
+    "phpcbf": [
+      "./vendor/bin/phpcbf --standard=./phpcs.xml -n --no-cache -s"
+    ]
+  },
+  "scripts-descriptions": {
+    "phpunit": "Run tests",
+    "coverage": "Checking code coverage",
+    "phpstan": "Run static analyze",
+    "phpcs": "Checking codestyle"
+  }
+}
