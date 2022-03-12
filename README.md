@@ -1,9 +1,9 @@
 ## Клиент для работы с API DaData
-![Packagist Version](https://img.shields.io/packagist/v/yzen.dev/php-data?color=%23007ec6&style=plastic)
+![Packagist Version](https://img.shields.io/packagist/v/yzen.dev/php-dadata?color=blue&label=version)
 ![GitHub branch checks state](https://img.shields.io/github/checks-status/yzen-dev/php-dadata/master)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/yzen-dev/php-dadata/tests?label=tests)](https://github.com/yzen-dev/php-dadata/actions/workflows/tests.yml)
-![Packagist Downloads](https://img.shields.io/packagist/dm/yzen.dev/php-data)
-![Packagist Downloads](https://img.shields.io/packagist/dt/yzen.dev/php-data)
+![Packagist Downloads](https://img.shields.io/packagist/dm/yzen.dev/php-dadata)
+![Packagist Downloads](https://img.shields.io/packagist/dt/yzen.dev/php-dadata)
 
 ## :scroll: **Installation**
 The package can be installed via composer:
