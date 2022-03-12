@@ -1,7 +1,8 @@
 ## Клиент для работы с API DaData
 ![Packagist Version](https://img.shields.io/packagist/v/yzen.dev/php-dadata?color=blue&label=version)
+[![Coverage](https://codecov.io/gh/yzen-dev/php-dadata/branch/dev/graph/badge.svg?token=QAO8STLPMI)](https://codecov.io/gh/yzen-dev/php-dadata)
 ![GitHub branch checks state](https://img.shields.io/github/checks-status/yzen-dev/php-dadata/master)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/yzen-dev/php-dadata/tests?label=tests)](https://github.com/yzen-dev/php-dadata/actions/workflows/tests.yml)
+![License](https://img.shields.io/github/license/yzen-dev/php-dadata)
 ![Packagist Downloads](https://img.shields.io/packagist/dm/yzen.dev/php-dadata)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/yzen.dev/php-dadata)
 
